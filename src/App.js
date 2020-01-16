@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-import UploadSudoku from './containers/UploadSudoku';
+// import UploadSudoku from './containers/UploadSudoku';
+import SolveSudoku from './containers/SolveSudoku';
 
 function App() {
   return (
-    <UploadSudoku />
+    <div>
+      <SolveSudoku />
+    </div>
   );
 }
 
