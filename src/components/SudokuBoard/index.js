@@ -1,7 +1,6 @@
 import React from 'react';
 
 import SudokuBox from '../SudokuBox';
-// sudokuState is an array of length 81 [1,0,2,1,2,3, ... ]
 
 const sudokuStateToRows = (sudokuState) => {
   let rows = []
@@ -18,7 +17,6 @@ const sudokuStateToRows = (sudokuState) => {
 const SudokuBoard = (props) => {
   const sudokuState = props.sudokuState;
   const sudokuRows = sudokuStateToRows(sudokuState)
-  console.log(sudokuRows)
   return (
     <table className="sudoku">
       <tbody>
