@@ -1,12 +1,12 @@
 import React from 'react';
 
-// import UploadSudoku from './containers/UploadSudoku';
+import UploadSudoku from './containers/UploadSudoku';
 import SolveSudoku from './containers/SolveSudoku';
 
 function App() {
   return (
     <div>
-      <SolveSudoku />
+      <UploadSudoku />
       <p>hoi</p>
     </div>
   );
